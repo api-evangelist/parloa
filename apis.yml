@@ -1,0 +1,94 @@
+aid: parloa
+name: Parloa
+description: Parloa is an enterprise conversational AI platform for contact centers that automates voice and chat customer
+  interactions across industries including financial services, utilities, eCommerce, healthcare, media, and IT. The Parloa
+  Agent Management Platform (AMP) supports designing, testing, scaling, optimizing, and securing AI agents that integrate
+  with CCaaS, telephony, CRM, and ERP systems. Parloa is a sales-led enterprise product and developer access to its REST APIs
+  and integration tooling is provided through customer and partner accounts rather than a fully public developer portal.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/parloa/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+type: Index
+access: 3rd-Party
+tags:
+- Agents
+- AI
+- Call Center
+- CCaaS
+- Contact Center
+- Conversational AI
+- Customer Experience
+- CX
+- Generative AI
+- Telephony
+- Voice
+apis:
+- aid: parloa:parloa-agent-management-platform
+  name: Parloa Agent Management Platform (AMP)
+  description: The Parloa Agent Management Platform (AMP) is the primary product surface for designing, testing, scaling,
+    optimizing, and securing AI voice and chat agents for contact centers. AMP supports custom REST API integrations to external
+    systems such as CRM, ERP, and workforce management platforms, and uses SIP for telephony interoperability. Access to the
+    underlying APIs is provisioned via Parloa customer and partner accounts.
+  humanURL: https://docs.amp.parloa.com/
+  tags:
+  - Agents
+  - AMP
+  - Conversational AI
+  - Voice
+  properties:
+  - type: Documentation
+    url: https://docs.amp.parloa.com/
+  - type: ReleaseNotes
+    url: https://docs.amp.parloa.com/getting-started/release-notes
+- aid: parloa:parloa-custom-rest-services
+  name: Parloa Custom REST Services Integration
+  description: Parloa AMP can be extended with custom services exposed over REST that the AI agent calls during a conversation
+    to retrieve customer data from CRM systems, look up orders, verify identity, or trigger downstream actions. The customer
+    operates and authenticates these services; Parloa orchestrates calls from within a conversation flow.
+  humanURL: https://www.parloa.com/platform/integrations/
+  tags:
+  - Custom Services
+  - Integrations
+  - REST
+  - Tools
+  properties:
+  - type: Documentation
+    url: https://www.parloa.com/platform/integrations/
+common:
+- type: Website
+  url: https://www.parloa.com/
+- type: Developer
+  url: https://docs.amp.parloa.com/
+- type: Documentation
+  url: https://docs.parloa.com/
+- type: Blog
+  url: https://www.parloa.com/resources/blog/
+- type: ChangeLog
+  url: https://docs.amp.parloa.com/getting-started/release-notes
+- type: Integrations
+  url: https://www.parloa.com/platform/integrations/
+- type: PrivacyPolicy
+  url: https://www.parloa.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.parloa.com/terms-and-conditions/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/parloa/
+- type: Support
+  url: https://www.parloa.com/contact/
+integrations:
+- name: Avaya
+- name: Five9
+- name: Genesys
+- name: NICE
+- name: Verint
+- name: Microsoft Dynamics
+- name: Salesforce
+- name: ServiceNow
+- name: SAP
+- name: Zendesk
+- name: Twilio
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
