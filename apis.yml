@@ -77,6 +77,8 @@ common:
   url: https://www.linkedin.com/company/parloa/
 - type: Support
   url: https://www.parloa.com/contact/
+- type: LLMsTxt
+  url: https://docs.parloa.com/llms.txt
 integrations:
 - name: Avaya
 - name: Five9
