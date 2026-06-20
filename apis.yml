@@ -5,7 +5,7 @@ description: Parloa is an enterprise conversational AI platform for contact cent
   Agent Management Platform (AMP) supports designing, testing, scaling, optimizing, and securing AI agents that integrate
   with CCaaS, telephony, CRM, and ERP systems. Parloa is a sales-led enterprise product and developer access to its REST APIs
   and integration tooling is provided through customer and partner accounts rather than a fully public developer portal.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/parloa/refs/heads/main/apis.yml
 created: '2026-05-23'
 modified: '2026-05-23'
