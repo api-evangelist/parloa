@@ -57,6 +57,10 @@ apis:
   - type: Documentation
     url: https://www.parloa.com/platform/integrations/
 common:
+- type: TrustCenter
+  url: security/parloa-trust-center.yml
+- type: DomainSecurity
+  url: security/parloa-domain-security.yml
 - type: Website
   url: https://www.parloa.com/
 - type: Developer
