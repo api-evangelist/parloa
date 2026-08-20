@@ -26,6 +26,18 @@ type: Index
 access: 3rd-Party
 tags:
 - Agents
+- Artificial Intelligence
+- Call Center
+- CCaaS
+- Contact Center
+- Conversational AI
+- Customer Experience
+- CX
+- Generative AI
+- Telephony
+- Voice
+tags_raw:
+- Agents
 - AI
 - Call Center
 - CCaaS
@@ -61,6 +73,11 @@ apis:
     operates and authenticates these services; Parloa orchestrates calls from within a conversation flow.
   humanURL: https://www.parloa.com/platform/integrations/
   tags:
+  - Custom Services
+  - Integration
+  - REST
+  - Tools
+  tags_raw:
   - Custom Services
   - Integrations
   - REST
