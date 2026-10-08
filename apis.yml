@@ -96,6 +96,12 @@ apis:
   - type: Documentation
     url: https://www.parloa.com/platform/integrations/
 common:
+- type: Plans
+  url: plans/parloa-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/parloa-rate-limits.yml
+- type: FinOps
+  url: finops/parloa-finops.yml
 - type: TrustCenter
   url: security/parloa-trust-center.yml
 - type: DomainSecurity
